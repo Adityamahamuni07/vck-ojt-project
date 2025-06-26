@@ -22,7 +22,7 @@ h2 {
 }
 
 .eligibility-table {
-  width: 100%;
+  width: 80%;
   border-collapse: collapse;
   margin-top: 1rem;
 }
@@ -52,4 +52,5 @@ h2 {
   text-align: center;
   width: 80%;
   margin: 0 auto;
+  background-color: aqua;
 }

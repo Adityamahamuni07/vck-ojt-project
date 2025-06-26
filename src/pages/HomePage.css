@@ -2,8 +2,8 @@
           
   overflow-y: auto;
   overflow-x: visible;
-  padding: 2rem;
-  width: 941.6px;
+  
+  width:1000px;
   height: 541px;
  justify-content: center; /* Center horizontally */
   align-items: center;     /* Center vertically */
@@ -11,12 +11,12 @@
   border-radius: 8px;
   background-color: #f9f9f9;
   box-shadow: 0 2px 6px #0000001a;
-  margin: 2rem auto;
+
   font-family: Arial, sans-serif;
   color: #333;
   flex-grow: 1;
   min-height: calc(100vh - 4rem); 
-  margin: 2rem auto;
+ 
   max-width: 1200px;
   box-sizing: border-box;
 }
@@ -37,7 +37,7 @@
   font-weight: bold;
   margin-bottom: 15px;
   color:white;
-  top:10%;
+  
   
 }
 
@@ -98,8 +98,8 @@ li {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('/Images/college-banner-.png');
-  background-size: 1000px 400px;
+  background-image: url('/images/college.png');
+  background-size: 1000px 600px;
   background-position: center;
   filter: blur(2px);                    /* 👈 Slight blur */
   transform: scale(1.1);               /* Prevent edges from showing due to blur */
@@ -124,7 +124,7 @@ li {
 .banner-container h1 {
   font-size: 2.8rem;
   font-weight: 700;
-  margin-bottom: 0.5rem;
+
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
 }
 
@@ -169,11 +169,10 @@ li {
   text-decoration: underline;
 }
 #pqr{
-  background-color: aqua;
   justify-content: center;
+  background-color:aqua;
   text-align: center;
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
 }
 h1{
   text-align: center;

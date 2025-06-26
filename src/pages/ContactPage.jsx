@@ -1,10 +1,12 @@
 import React from "react";
 
 import './ContactPage.css';
+import Header from "../components/header/Header";
+import Footer from "../components/Footer/Footer";
 const ContactPage = () => { 
-    return(
+    return( <div>  
       <div className="demo">
-
+   <Header/>
       
   <div style={{ padding: '1rem' }} className="home-scroll-container">
      
@@ -49,6 +51,8 @@ const ContactPage = () => {
 
   
   </div>
+      <Footer/>
+  </div>    
 )
 }
 export default ContactPage;

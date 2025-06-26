@@ -1,20 +1,26 @@
-import React from'react'
-import { useState } from 'react';
 
+import React , { useState } from 'react';
+
+//import Footer from  "../components/Footer/Footer";
 import  './HomePage.css';
+import Header from '../components/header/Header';
+import Footer from '../components/Footer/Footer';
 const HomePage = () => {
   const [showForm, setShowForm] = useState(false);
 
   return (
+  <div>
+     <Header/>
     <div id="pqr">
       
+       
     <div className="home-scroll-container">
       
-    
+    <header/>
       <div className="banner-container">
         <h1 className="home-title"><strong>Welcome to Vivekanand</strong> <span id="ab">College!</span> </h1>
         
-        <img src ="/images/college.png"></img>
+       
         <p>Your journey to excellence starts here.</p>
         <div className="button-wrapper">
         <a href="/apply" className="cta-button">Apply Now!</a>
@@ -35,8 +41,9 @@ const HomePage = () => {
     </ul>
         <div>
           <h2 id="camp"> Campus Life & Facilities</h2>
-          <img src="/Images/students.jpeg" alt="Campus View 1" className="gallery-image" />
-          <img src="/Images/campus-life.jpg" alt="Campus View 2"className="gallery-image taller-image"/>
+          <img src="/images/students-studying-DbLGuwF_.jpeg" alt="Campus View 1" className="gallery-image" />
+          <img src="images/campus-life.jpg" alt="Campus View 2"className="gallery-image taller-image"/>
+        
           <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
         </div>
         <p className="home-subtext">Ready to explore our courses?</p>
@@ -49,6 +56,8 @@ const HomePage = () => {
       
     </div>
     
+    </div>
+    <Footer/>
     </div>
   );
 };
