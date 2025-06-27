@@ -14,13 +14,35 @@ import Headers from "./components/header/Header";
 import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
 import Header from "./components/header/Header";
 import Footer from "./components/Footer/Footer";
+import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopUp";
 
-function App() {
+const App= ()  => {
   const [showPopup, setShowPopup] = useState(true);
   const handleClosePopup = () => {
     setShowPopup(false);
   };
-  return ( <div> 
+  return ( 
+    <>
+    <div>
+        {/* Your main application content */}
+        <DeveloperInfoPopup
+          show={showPopup}
+          onClose={handleClosePopup}
+          studentName="Aditya madan Mahamuni"
+          studentPhotoUrl="/images/WhatsApp Image 2025-06-27 at 11.35.18 AM.jpeg"// Path to their photo
+          uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
+        />
+      </div>
+
+
+
+
+
+
+
+
+
+
     <div>
     <Router>
           
@@ -39,7 +61,7 @@ function App() {
     </Router>
     </div>
    
-    </div> 
+    </>
   );
 }
 
